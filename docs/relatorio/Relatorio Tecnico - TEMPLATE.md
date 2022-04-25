@@ -9,13 +9,15 @@
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Cecília Junqueira
+> - Gabriel Drummond
+> - Guilherme Pinheiro
+> - Gustavo Junqueira
+> - Laura Vasconcelos
+> - Rafael Nunes
 
 # Estrutura do Documento
 
@@ -55,8 +57,10 @@
 # Introdução
 
 ## Problema
+  A dificuldade de acesso ao estágio é um problema que muitos estudantes universitários encaram durante a faculdade devido a inúmeros fatores, que podem variar, por exemplo, de acordo com a área em que o indivíduo pretende seguir como profissional. É válido citar que a falta de orientação sobre como produzir um currículo, a divulgação ineficaz sobre vagas de estágio existentes, dificuldade de conciliar os horários das aulas com o do estágio e a falta de comunicação efetiva entre os estudantes e os contratantes são apenas uma das adversidades que geram e fomentam a dificuldade de arranjar estágio.
+  Diante de tal situação, é evidente que esse problema precisa ser solucionado, uma vez que participar de um estágio é uma etapa fundamental para a formação de um profissional de alta qualidade, visto que o estudante adquire muito conhecimento com esse trabalho. Com isso, o difícil acesso a tal emprego pode promover a formação de profissionais desqualificados, que não saberão executar adequadamente suas respectivas funções, promovendo um desequilíbrio social e econômico.
+  Assim, ao longo desse trabalho, o grupo se propõe a apresentar uma alternativa que torne o processo de busca por um estágio mais fácil e objetiva, tanto para os universitários, quanto para as empresas que querem contratar, para, então, contribuir para a melhora da formação dos profissionais do país.
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -76,7 +80,13 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para solucionar essa chaga, temos como objetivo geral desenvolver um software que facilite a busca de estágio dos estudantes, de modo que faça com que a grande maioria dos indivíduos que usarem o programa criado encontrem um bom emprego, que seja edificador na sua formação profissional. 
+	Alguns objetivos específicos que temos é:
+- Criar um ambiente de divulgação das vagas de estágio disponível onde os requisitos apresentados sejam objetivos, de modo que contenha apenas as exigências que são de fato fundamentais para que os estudante trabalhe bem na empresa;
+- Auxiliar os estudantes sobre como fazer um currículo (o que é importante colocar nele, quais atividades são válidas de serem mencionadas…);
+- Auxiliar, principalmente os estudantes de áreas que o mercado de trabalho é fraco, a encontrarem empregos que são da sua área ou, ao menos, que são o mais próximo possível dela;
+- Criar um ambiente onde o aluno pode pedir auxílio a outros estudantes que já têm estágio, com professores, com pessoas da área que pretende seguir, entre outros, sobre o que fazer para conseguir a contratação.
+
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -88,8 +98,10 @@
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
+	Este problema é muito recorrente no nosso país que acarreta sérios problemas para a economia, pois, a partir do momento que os estudantes não conseguem arranjar bons estágios, eles não terão a oportunidade ter experiências de qualidade na área que eles pretendem seguir, tornando-os, então, profissionais frágeis que não são capazes de executarem bem suas funções. Com isso, a contribuição deles para a sociedade também será precária, dificultando o crescimento do país.
+	Tendo isso em mente, consideramos fundamental trabalhar essa temática, para tentarmos encontrar e propor soluções que a minimizem, a fim de tornar os futuros profissionais do país de alta qualidade e, portanto, possibilitar o crescimento nacional.
+	Para atingirmos tal fim, escolhemos os objetivos mencionados anteriormente pois, nas entrevistas que realizamos, eles foram apresentados como os principais obstáculos que fomentam o problema em discussão. Dessa forma, ao focarmos na busca de soluções para eles, estamos dando um significativo passo na busca em acabar com essa dificuldade que muitos jovens enfrentam atualmente.
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -105,7 +117,10 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+  As principais pessoas que pretendemos atingir e chamá-las para usar nossos software são, principalmente, os estudantes que estão em busca por estágio e as empresas que querem divulgar suas vagas de estágio disponíveis, de uma maneira que atinja um grande número de pessoas.
+	No primeiro grupo do público-alvo, as pessoas que fazem parte dele podem ser tanto homens quanto mulheres, estão, na sua maioria, na faixa etária de 18 a 22 anos, estão cursando o ensino superior, a renda média é indefinida, bem como a classe social e a localização e são pessoas que têm o hábito de mexer nas redes sociais constantemente.
+	O segundo grupo também é composto por homens e mulheres, apesar de, muitas vezes os homens predominarem, já que a maioria dos altos cargos das empresas (que são quem contrata) são ocupados por homens. Essas pessoas, em sua maioria, concluíram o ensino superior e têm mais de 40 anos. Elas fazem parte das classes mais altas da sociedade e também têm grande afinidade com os utensílios tecnológicos, usando-os constantemente (celulares, computadores, mídias sociais…).
+
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -124,7 +139,7 @@
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+  Nessa parte do documento, iremos apresentar quais personas/perfis criamos dos usuários da ferramentas que criaremos futuramente, para solucionar o problema discutido previamente. Ainda, apresentaremos quais os requisitos e desejos dos usuários sobre o que é fundamental que tenha no software, para que a solução que ele busca garantir seja efetiva. Para coletarmos essas informações, utilizamos as respostas obtidas no formulário e nas entrevistas realizadas com estudantes universitários e empresários sobre quais são as fragilidades nas ferramentas já existentes que visam facilitar o acesso ao estágio. Após isso, usamos o Miro para construir as personas e os mapas de empatias, além de usar essa plataforma como um ambiente para organizar visualmente as necessidades principais do público-alvo.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -132,7 +147,17 @@
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+	Ao longo das entrevistas que realizamos, identificamos três tipos de personas: os alunos que são de áreas em que a empregabilidade é baixa, os alunos de áreas que têm muitas vagas de emprego e os donos ou funcionários de empresas que são responsáveis por contratar estagiários.
+	No aluno que é de uma área em que a empregabilidade é baixa, percebemos que ele quer arranjar um emprego, mas a escassez de vagas disponíveis, atrelada à falta de orientação sobre como fazer um currículo e sobre como se portar na entrevista de emprego, quais atividades extracurriculares fazer para se encaixar nas requisições da vaga à qual quer aplicar, entre outros, fomenta a dificuldade em conseguir um estágio. 
+	No aluno que é de uma área com alta empregabilidade, percebemos que, apesar de tal realidade, a falta de informações claras sobre as vagas disponíveis e sobre os requisitos da vaga, por exemplo, dificultam a contratação. Ainda, a dificuldade de conciliar o horário de trabalho com o de aula se mostrou um empecilho tanto para esse aluno, como para o anterior.
+	A terceira (e última) persona mostrou grande interesse em contratar jovens qualificados e esforçados para a sua empresa, porém, a comunicação ineficiente e a fraca divulgação das vagas disponíveis torna esse processo complicado e, muitas vezes, sem êxito.
+
+PERSONA 1: Amanda tem 21 anos e é estudante de Relações Internacionais. Ela tem o sonho de se tornar uma profissional qualificada e de sucesso, com um bom emprego, além de querer expandir sua carreira internacionalmente. Entretanto, ela encara a dificuldade de não conseguir estágio, uma vez que a disponibilidade de emprego em sua área é muito baixa e a escassa divulgação das vagas disponíveis, com muitas informações confusas e prolixas sobre o emprego e suas requisições, dificultam o alcance do seu objetivo. Diante disso, a existência de uma plataforma que informe de maneira clara e objetiva quais as vagas disponíveis (ou as vagas com funções mais próximas das da sua área), com um bom auxílio sobre o que deve ser feito para facilitar o processo, a ajudaria imensamente.
+
+PERSONA 2: Arthur, de 19 anos, cursa Ciência da Computação e sonha em se tornar um desenvolvedor de grande renome e, para atingir tal fim, ele considera o estágio como sendo fundamental para ele adquirir mais conhecimento sobre a área. Ele tem grande facilidade com tecnologia e já possui um conhecimento básico sobre programação muito estabilizado. Contudo, apesar da oferta de emprego de sua área ser muito abundante, a má divulgação das vagas disponíveis também é um fator prejudicial na sua busca por um emprego. Assim, uma ferramenta que divulgue os estágios disponíveis de uma maneira clara e centralizada o ajudaria a atingir seu objetivo.
+
+PERSONA 3: Eneas, de 51 anos, é um empreendedor que tem grande interesse pelas mudanças tecnológicas que o mundo encara constantemente e quer sempre aplicá-las em seus negócios, para que estes sempre prosperem. Ele sonha em expandir suas empresas internacionalmente e acredita que, ao contratar jovens qualificados, estes vão saber bem como adaptar a empresa às modernidades, para, assim, atingir tal fim, Diante disso, ele sempre tenta contratar estagiários altamente qualificados e comprometidos com o trabalho, mas a falta de uma boa comunicação entre as empresas e os alunos, sobre as vagas de estágio disponíveis, torna as contratações complicadas. Com isso, um ambiente onde seja centralizada e efetiva a divulgação das vagas disponíveis (realidade que não é comum até então), de modo onde o contato com os alunos seja fácil e objetivo, minimizaria essa realidade problemática.
+
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
@@ -160,6 +185,13 @@
 
 ## Histórias de Usuários
 
+- Eu, Amanda, como uma aluna com dificuldade de encontrar vagas de estágio disponíveis na minha área, quero uma plataforma que seja centralizada e clara na divulgação das vagas disponíveis, bem como dos requisitos dela, para que eu consiga arrumar um bom estágio, para, então, eu aprimorar minha qualificação profissional.
+
+- Eu, Arthur, como um estudante de uma área com abundantes vagas disponíveis, mas que tem dificuldade de saber quais vagas de estágio estão disponíveis, devido à má organização da divulgação destas, quero ter acesso a uma ferramenta que solucione esse problema, tornando a divulgação dos estágios objetiva, para possibilitar que eu comece a trabalhar e, com isso, adquira mais conhecimento para me tornar um profissional de sucesso.
+
+- Eu, Eneas, como um empresário que pretende usar a plataforma a ser criada, quero que esta torne a divulgação das vagas de estágio da minha empresa efetiva e rápida, abrangendo muitos indivíduos, para que eu consiga encontrar jovens capacitados e esforçados para trabalhar na minha empresa, para, assim, poder torná-los excelentes profissionais no futuro e, com isso, poder mantê-los como meus funcionários, contribuindo para o crescimento da empresa.
+
+
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
@@ -183,6 +215,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
+
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
@@ -239,7 +272,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+	Durante a coleta de informações que realizamos ao longo das entrevistas, a grande maioria dos entrevistados citaram a falta de objetividade sobre os requisitos das vagas e de centralização da divulgação das vagas como dois dos principais problemas que fomentam a dificuldade que o estudante encara de encontrar um estágio. Dessa forma, ao pensarmos como seria as interfaces do site, decidimos deixar a página principal com “cards” das vagas disponíveis para os usuários estudantes e ainda disponibilizar a ferramenta de filtrar os estágios de acordo com a área, para facilitar a busca por um emprego.
+
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
@@ -307,7 +341,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Divisão das tarefas:
+CECÍLIA: Product Owner: Responsável por estabelecer um canal de comunicação entre o cliente e a equipe
+GABRIEL: Desenvolvedor: Responsável por desenvolver o produto dentro do prazo de entrega.
+GUILHERME: Scrum Master: responsável pela organização do grupo e projeto.
+GUSTAVO: Desenvolvedor: Responsável por desenvolver o produto dentro do prazo de entrega
+LAURA: Desenvolvedor: Responsável por desenvolver o produto dentro do prazo de entrega
+RAFAEL: Desenvolvedor: Responsável por desenvolver o produto dentro do prazo de entrega
+
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -318,7 +359,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+Miro (Processo de Design Thinking): https://miro.com/app/board/uXjVOBuGoNA=
+GitHub: https://github.com/ICEI-PUC-Minas-PPLCC-TI/tiaw-ppl-cc-m-20221-t2-g3-dificuldade-de-acesso-a-estagio.git
+Wireframe versão mobile: https://www.figma.com/file/lDMiBl8IVrLb0GsVEUYzDU/Untitled?node-id=0%3A1
+Wireframe versão computador: https://www.figma.com/file/KviMFcISyLUqQwj2PMSTvv/Wireframes---sprint-1---TIAW
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
@@ -352,7 +396,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Versão: 1.0
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
