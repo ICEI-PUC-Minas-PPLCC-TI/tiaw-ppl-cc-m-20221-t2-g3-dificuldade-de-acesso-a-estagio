@@ -219,16 +219,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário informe a área em que ele cursa, para filtrar as vagas de estágios disponíveis nela. | ALTA | 
+|RF-002| Deve mostrar todas as vagas disponíveis por área. | ALTA |
+|RF-002| Deve informar apenas as requisições que são extremamente essenciais para um indivíduo poder ocupar a vaga.| ALTA |
+|RF-002| Dar orientações sobre como fazer um currículo (quais informações pessoais e atividades extracurriculares são válidas colocar, por exemplo).| ALTA |
+|RF-002| A divulgação das vagas disponíveis deve ser muito intensa, centralizada num só espaço e de uma maneira muito clara.| ALTA |
+|RF-002| Deve ter um ambiente onde os alunos que buscam emprego possam conversar com profissionais da área que pretendem seguir e com alunos que já têm estágio, de modo que sejam auxiliados sobre quais ações tomar para conseguir uma fácil contratação.| MÉDIA |
+|RF-002| Deve apresentar uma modalidade em que o software apresenta os estágios disponíveis que sejam conciliados com o horário de aula do aluno.| MÉDIA |
+|RF-002| Uma aba que dê instruções sobre como se preparar para as entrevistas de emprego.| MÉDIA |
+
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Deve ser responsivo, para rodar em aparelhos móveis. | ALTA | 
+|RNF-002| Deve retornar um resultado para a solicitação do usuário de busca por empregos disponíveis em 5 segundos. |  BAIXA | 
+|RNF-002| Deve ser compilado e rodado em qualquer navegador. |  MÉDIA | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
