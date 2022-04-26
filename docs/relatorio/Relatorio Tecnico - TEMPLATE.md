@@ -308,7 +308,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 ## Wireframes
-(images/Wireframes - sprint 1 - TIAW.png)
+![Wireframe 1](images/Wireframes - sprint 1 - TIAW.png)
 Esse é o wireframe da tela principal do site para alunos
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
