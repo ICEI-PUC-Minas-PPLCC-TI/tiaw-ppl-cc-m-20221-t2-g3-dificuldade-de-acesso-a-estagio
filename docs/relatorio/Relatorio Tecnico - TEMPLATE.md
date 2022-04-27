@@ -378,7 +378,8 @@ Wireframe versão computador: https://www.figma.com/file/KviMFcISyLUqQwj2PMSTvv/
 |Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVOBuGoNA= | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/tiaw-ppl-cc-m-20221-t2-g3-dificuldade-de-acesso-a-estagio.git | 
 |Wireframe - mobile | Figma |  https://www.figma.com/file/lDMiBl8IVrLb0GsVEUYzDU/Untitled?node-id=0%3A1 | 
-|Wireframe - computador | Figma | https://www.figma.com/file/KviMFcISyLUqQwj2PMSTvv/Wireframes---sprint-1---TIAW | 
+|Wireframe - computador | Figma | https://www.figma.com/file/KviMFcISyLUqQwj2PMSTvv/Wireframes---sprint-1---TIAW |
+|User flow | Flow Map |https://app.flowmapp.com/share/421fd87e605b036153f35cd533795fb1/userflow/186513/ |
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
