@@ -58,7 +58,9 @@
 
 ## Problema
   A dificuldade de acesso ao estágio é um problema que muitos estudantes universitários encaram durante a faculdade devido a inúmeros fatores, que podem variar, por exemplo, de acordo com a área em que o indivíduo pretende seguir como profissional. É válido citar que a falta de orientação sobre como produzir um currículo, a divulgação ineficaz sobre vagas de estágio existentes, dificuldade de conciliar os horários das aulas com o do estágio e a falta de comunicação efetiva entre os estudantes e os contratantes são apenas uma das adversidades que geram e fomentam a dificuldade de arranjar estágio.
+  
   Diante de tal situação, é evidente que esse problema precisa ser solucionado, uma vez que participar de um estágio é uma etapa fundamental para a formação de um profissional de alta qualidade, visto que o estudante adquire muito conhecimento com esse trabalho. Com isso, o difícil acesso a tal emprego pode promover a formação de profissionais desqualificados, que não saberão executar adequadamente suas respectivas funções, promovendo um desequilíbrio social e econômico.
+  
   Assim, ao longo desse trabalho, o grupo se propõe a apresentar uma alternativa que torne o processo de busca por um estágio mais fácil e objetiva, tanto para os universitários, quanto para as empresas que querem contratar, para, então, contribuir para a melhora da formação dos profissionais do país.
 
 
