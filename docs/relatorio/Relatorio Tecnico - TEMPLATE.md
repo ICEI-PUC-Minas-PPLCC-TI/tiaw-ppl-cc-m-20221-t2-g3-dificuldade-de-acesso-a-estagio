@@ -315,20 +315,35 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > ![Wireframe 1](images/Wireframe - sprint 1 - TIAW.png) 
 > Esse é o wireframe da página principal do site da versão para os estudantes
 
-> ![Wireframe 1](images/Wireframe - sprint 1 - TIAW (1).png) 
+> ![Wireframe 2](images/Wireframe - sprint 1 - TIAW (1).png) 
 > Esse é o wireframe de quando o usuário clica para saber mais detalhes sobre a vaga disponível
 
-> ![Wireframe 1](images/Wireframe - sprint 1 - TIAW (2).png) 
+> ![Wireframe 3](images/Wireframe - sprint 1 - TIAW (2).png) 
 > Esse wireframe é da tela do perfil do usuário, onde ele colocará as informações básicas sobre ele.
 
-> ![Wireframe 1](images/Wireframe - sprint 1 - TIAW (4).png) 
+> ![Wireframe 4](images/Wireframe - sprint 1 - TIAW (4).png) 
 > Esse wireframe corresponde à tela principal do site da versão para a empresa, onde ela poderá ver todas as vagas que ele divulgou.
 
-> ![Wireframe 1](images/Wireframe - sprint 1 - TIAW (5).png)
+> ![Wireframe 5](images/Wireframe - sprint 1 - TIAW (5).png)
 > Ao clicar no botão “ver todos os aplicantes” do wireframe anterior, abrirá essa tela, onde a empresa consegue ver todos os candidatos de cada vaga. Ao clicar em “+DETALHES”, abrirá a tela do próximo wireframe.
 
-> ![Wireframe 1](images/Wireframe - sprint 1 - TIAW (5).png)
+> ![Wireframe 6](images/Wireframe - sprint 1 - TIAW (5).png)
 >Nessa tela, a empresa consegue ver todos os detalhes do candidato.
+
+> ![Wireframe 1](images/Wireframe celular.jpg)
+> Wireframe da tela principal do site da versão para estudantes. São mostradas todas as vagas disponíveis de estágio na área que o usuário colocou quando fez o cadastro.
+
+> ![Wireframe 2](images/Wireframe celular 2.jpg)
+> Wireframe da tela do fórum na versão do site para estudantes. Aí, a pessoa pode tirar dúvidas sobre o processo com outros jovens que buscam ou que já têm estágio.
+
+> ![Wireframe 3](images/Wireframe celular 3.jpg)
+
+> ![Wireframe 4](images/Wireframe celular 4.jpg)
+> Wireframe da tela do chat na versão do site para estudantes. Nessa tela, o aluno pode mandar mensagem para as empresas que divulgaram as vagas, para esclarecer dúvidas que não foram sanadas nas informações publicadas pela empresa na divulgação da vaga.
+
+> ![Wireframe 5](images/Wireframe celular 5.jpg)
+> Wireframe da tela de perfil do aluno. Aí, ele adiciona suas informações básicas, tanto pessoais como acadêmicas.
+
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
@@ -348,7 +363,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Para a execução do trabalho, separamos as tarefas que deveriam ser executadas por cada membro, porém, todos trabalharam em cada etapa e elemento do projeto. Usamos documentos do Google Docs e do Google Apresentações para produzirmos nossos arquivos, já que essas plataformas são as melhores para a produção em conjunto. Ainda, usamos o WhatsApp para informar os outros o que já tínhamos feito e, durante as aulas de TIAW, revisamos o que havia sido produzido naquela semana e já iniciávamos a produção da próxima etapa da sprint.
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -536,8 +551,12 @@ Versão: 1.0
 
 
 # Referências
-
-......  COLOQUE AQUI O SEU TEXTO ......
+> https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac 
+> https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/ 
+> https://codificar.com.br/requisitos-funcionais-nao-funcionais/
+> http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/ 
+> https://mindmaster.com.br/scrum-11-passos/
+> https://docs.google.com/forms/d/1bXqFRzDCv_rAl7EqVByfk_HDAMlOenn1Y1fk0GXl1_0/edit?usp=sharing (QUESTIONÁRIO DOCS)
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
