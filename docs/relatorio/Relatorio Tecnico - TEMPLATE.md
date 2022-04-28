@@ -337,6 +337,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Wireframe da tela do fórum na versão do site para estudantes. Aí, a pessoa pode tirar dúvidas sobre o processo com outros jovens que buscam ou que já têm estágio.
 
 > ![Wireframe 3](images/Wireframe celular 3.jpg)
+> Wireframe da tela dos “favoritos”, aba onde o aluno pode salvar os estágios que eles mais tem interesse em se candidatar.
 
 > ![Wireframe 4](images/Wireframe celular 4.jpg)
 > Wireframe da tela do chat na versão do site para estudantes. Nessa tela, o aluno pode mandar mensagem para as empresas que divulgaram as vagas, para esclarecer dúvidas que não foram sanadas nas informações publicadas pela empresa na divulgação da vaga.
