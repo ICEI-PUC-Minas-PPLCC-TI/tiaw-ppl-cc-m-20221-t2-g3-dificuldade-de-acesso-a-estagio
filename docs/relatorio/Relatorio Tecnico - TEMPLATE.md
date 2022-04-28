@@ -291,7 +291,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Projeto](#especificações-do-projeto).
 
 ## User Flow
- 
+> ![User flow: versão estudante](images/user flow est.png) 
+> ![User flow: versão empresa](images/user flow emp.png)
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
@@ -306,14 +307,28 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > **Exemplo**:
 > 
 > ![Exemplo de UserFlow](images/userflow.jpg)
-> ![User flow: versão estudante](images/user flow est.png) 
-> ![User flow: versão empresa](images/user flow emp.png)
 
 
 ## Wireframes
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-![Wireframe 1](images/Wireframe - sprint 1 - TIAW.png) 
+> ![Wireframe 1](images/Wireframe - sprint 1 - TIAW.png) 
+> Esse é o wireframe da página principal do site da versão para os estudantes
+
+> ![Wireframe 1](images/Wireframe - sprint 1 - TIAW (1).png) 
+> Esse é o wireframe de quando o usuário clica para saber mais detalhes sobre a vaga disponível
+
+> ![Wireframe 1](images/Wireframe - sprint 1 - TIAW (2).png) 
+> Esse wireframe é da tela do perfil do usuário, onde ele colocará as informações básicas sobre ele.
+
+> ![Wireframe 1](images/Wireframe - sprint 1 - TIAW (4).png) 
+> Esse wireframe corresponde à tela principal do site da versão para a empresa, onde ela poderá ver todas as vagas que ele divulgou.
+
+> ![Wireframe 1](images/Wireframe - sprint 1 - TIAW (5).png)
+> Ao clicar no botão “ver todos os aplicantes” do wireframe anterior, abrirá essa tela, onde a empresa consegue ver todos os candidatos de cada vaga. Ao clicar em “+DETALHES”, abrirá a tela do próximo wireframe.
+
+> ![Wireframe 1](images/Wireframe - sprint 1 - TIAW (5).png)
+>Nessa tela, a empresa consegue ver todos os detalhes do candidato.
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
