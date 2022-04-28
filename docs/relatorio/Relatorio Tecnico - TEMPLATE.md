@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+DIFICULDADE DE ACESSO A ESTÁGIO
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+CIÊNCIA DA COMPUTAÇÃO - 1° PERÍODO
 
 ## Participantes
 
