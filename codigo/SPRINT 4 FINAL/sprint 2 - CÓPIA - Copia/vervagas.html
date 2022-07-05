@@ -1,0 +1,185 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filtro de vagas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vagas.css">
+    <link rel="shortcut icon" href="https://www.pngmart.com/files/5/Work-PNG-Transparent.png">    
+    <script src="https://kit.fontawesome.com/a2f3e645e9.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="ListaContatos()">
+    <header class="header_Inicio" id="headerLauraVagas">
+
+        <img id="img_logo" src="./imgs/image-removebg-preview3.png" alt="LOGO">
+
+        <nav id="nav_cadastroVagas">
+            <ul class="navBar" id="navbarLaura">
+                <li id="item_navbar"><a href="homeEmp.html">Home</a></li>
+                <li id="item_navbar"><a href="perfil.html">Perfil</a></li>
+                <li id="item_navbar"><a href="pagCadVagasLaura.html">+ Divulgações</a></li>
+                <li id="item_navbar"><a href="cadastrovagasEmp.html">Entrevistas de emprego</a></li>
+                <li id="item_navbar"><a href="aplicacoesRecebidas.html">Aplicações recebidas</a></li>
+                <button id="btn_sair" onclick="sair()"><i class="fa-solid fa-arrow-right-from-bracket fa-2xl"></i></button>
+            </ul>
+        </nav>
+    </header>
+    <h6 id="username">Olá, <span id="nomeUsuario"></span>! Seja bem-vindo</h6>
+    <h1>FILTRO DE VAGAS</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="msg" class="col-sm-2 offset-sm-10 ">
+                <a href="pagCadVagasLaura.html"><input type="button" class="btn btn-warning" id="btnClear" value="Cadastro"></a>
+            </div>
+        </div>        
+        
+        <form id="form-contato">            
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <select name="filtro_estado" id="filtro_estado" onchange="ListaContatos()" class="form-control">
+                        <option value="">Selecione o Estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="Estrangeiro">Estrangeiro</option>
+                    </select>                    
+                </div>
+                <div class="col-sm-4">
+                    <select name="filtro_area" id="filtro_area" onchange="ListaContatos()" class="form-control">
+                        <option value="">Selecione a Área</option>
+                        <option value="exatas">Ciências Exatas</option>
+                        <option value="biologicas">Ciências Biológicas</option>
+                        <option value="letras">Linguística, Letras e Artes</option>
+                        <option value="sociais">Ciências Sociais Aplicadas</option>
+                        <option value="humanas">Ciências Humanas</option>
+                    </select>
+                </div>
+                <div class="col-sm-4">
+                    <select name="filtro_turno" id="filtro_turno" onchange="ListaContatos()" class="form-control">
+                        <option value="">Selecione o turno</option>
+                        <option value="Manhã">Manhã</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noite">Noite</option>
+                        <option value="Integral">Integral</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-contatos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nome da Vaga</th>
+                            <th scope="col">Endereço</th>
+                            <th scope="col">Sobre</th>
+                            <th scope="col">Modalidade</th>
+                            <th scope="col">Horas</th>
+                            <th scope="col">Salário</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Área</th>
+                            <th scope="col">Turno</th>
+                            <th scope="col">Site</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-contatos"><tr><td scope="row">1</td>
+                                                    <td>Sobre a vaga aqui</td>
+                                                    <td>5:30</td>
+                                                    <td>2500</td>
+                                                    <td>Empresa@gmail.com</td>
+                                                    <td>MG</td>
+                                                    <td>Exatas</td>
+                                                    <td>Tarde</td>
+                                                    <td>Empresa.com</td>
+                                                </tr></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="vagas.js"></script>
+    <script>
+        // função para listar na tabela os contatos que estão associados aos filtros 
+        function ListaContatos() {
+            
+            // Obtem os dados informados pelo usuário nos filtros
+            let fc = document.getElementById('filtro_estado').value;
+            let fa = document.getElementById('filtro_area').value;
+            let ft = document.getElementById('filtro_turno').value;
+
+            // limpa a lista de contatos apresentados
+            $("#table-contatos").empty();
+
+            var db_vagas = JSON.parse(localStorage.getItem('db_vagasCad'));
+            let currentUser = JSON.parse(sessionStorage.getItem("usuarioCorrente"));
+            // Popula a tabela com os registros do banco de dados
+            for (let i = 0; i < db.data.length; i++) {
+                const contato = db.data[i];
+
+                // Verifica se os dados do contato batem com os filtros
+                if (((contato.estado == fc) || (fc == '')) &&
+                    ((contato.area == fa) || (fa == '')) &&
+                    ((contato.turno == ft) || (ft == ''))) {
+                    
+                    // Inclui o contato na tabela 
+                    if(db_vagas.data[i].nome == currentUser.name) {   
+                    $("#table-contatos").append(`<tr>
+                                                    <td>${contato.nomeVaga}</td>
+                                                    <td>${contato.endereco}</td>
+                                                    <td>${contato.sobre}</td>
+                                                    <td>${contato.modalidade}</td>
+                                                    <td>${contato.horas}</td>
+                                                    <td>${contato.salario}</td>
+                                                    <td>${contato.email}</td>
+                                                    <td>${contato.estado}</td>
+                                                    <td>${contato.area}</td>
+                                                    <td>${contato.turno}</td>
+                                                    <td>${contato.site}</td>
+                                                </tr>`);
+                        }
+                }
+            }
+
+        }
+    </script>
+
+
+
+</body>
+</html>

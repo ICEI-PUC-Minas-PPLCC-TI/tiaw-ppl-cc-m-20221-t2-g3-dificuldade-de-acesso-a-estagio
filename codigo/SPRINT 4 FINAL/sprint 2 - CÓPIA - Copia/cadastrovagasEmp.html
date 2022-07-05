@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agendamento de entrevistas - versão empresa</title>
+        <link rel="stylesheet" href="stylesS2Cecilia.css">
+
+        <script src="https://kit.fontawesome.com/a2f3e645e9.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="bodyIndex">
+        <header id="header_entrevCad">
+
+            <img id="logo" src="./imgs/image-removebg-preview3.png" alt="LOGO">
+
+            <nav>
+                <ul class="navBar" id="navbar_entrevCad">
+                    <li id="items_navbar"><a href="homeEmp.html">Home</a></li>
+                    <li id="items_navbar"><a href="perfil.html">Perfil</a></li>
+                    <li id="items_navbar"><a href="pagCadVagasLaura.html">+ Divulgações</a></li>
+                    <li id="items_navbar"><a href="cadastrovagasEmp.html">Entrevistas de emprego</a></li>
+                    <li id="items_navbar"><a href="aplicacoesRecebidas.html">Aplicações recebidas</a></li>
+                    <button id="btn_sair" onclick="sair()"><i class="fa-solid fa-arrow-right-from-bracket fa-xl"></i></button>
+                </ul>
+            </nav>
+        </header>
+
+        <p id="btn_nextpage"><i onclick="adicionar()" class="fa-solid fa-calendar-plus fa-2xl"></i></p>
+        <button id="btn_verInsc" class="verInscritos"><a href="./inscEntrevEmp.html">Veja os inscritos</a></button>
+        
+        <h6>Olá, <span id="nomeUsuario"></span>! Seja bem-vindo</h6>
+        <div class="intro">
+            <h1>Entrevistas de empregos - Horários</h1>
+            <p>Divulgue aqui os horários disponíveis para a realização das entrevistas das vagas divulgadas</p>
+        </div>
+
+        <div class="container">
+
+        </div>
+
+        <div class="teste">
+            <!-- <button id="btn_add" onclick="adicionar()"> Adicione horários para as entrevistas</button> -->
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <section>
+                <div class="text-center p-3 pl-0 navbar-dark">
+                    <div class="row">
+                        <div class="col-12">
+                            <p id="txt_footer" style="color: white; text-align:center;">©INprego - Todos os direitos reservados - 2022</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+        <script src="cadastrovagasEmp.js"></script>
+    </body>
+</html>

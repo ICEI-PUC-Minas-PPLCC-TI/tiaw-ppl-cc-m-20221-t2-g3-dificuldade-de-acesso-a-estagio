@@ -1,0 +1,201 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+.campoApli {
+    font-weight: 700;
+}
+
+/* menu */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(101, 86, 222);
+    padding: 10px 40px;
+    margin-top: 10px;
+}
+
+header img {
+    width: 220px;
+}
+
+header img:hover {
+    cursor: pointer;
+}
+
+.navBar {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.navBar li {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 650;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: white;
+}
+
+#btn_sair {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(155, 155, 202);
+    background-color: rgb(155, 155, 202);
+}
+
+#btn_sair i {
+    color: white;
+}
+/* end-menu */
+
+h1 {
+    margin-left: 75px;
+    margin-bottom: 5px;
+}
+
+.infoEdit {
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+
+.boxVagas {
+    width: 48%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.divTxt {
+    /* margin-top: 20px; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .divTxt {
+        width: 87%;
+        margin-left: 0px;
+        margin: auto;
+    }
+
+    .boxVagas {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    h1, .infoEdit {
+        width: 95%;
+        margin-left: 10px;
+    }
+}
+
+h6 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#userName {
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 550;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #header_Inicio {
+        width: 100%;
+        height: 170px;
+    }
+
+    header img {
+        position: relative;
+        margin-top: -110px;
+        width: 150px;
+        margin-left: -40px;
+    }
+
+    header nav {
+        width: 80%;
+    }
+    
+    .navBar {
+        width: 100%;
+        display: block;
+        margin-left: -40px;
+        margin-top: 10px;
+    }
+
+    .navBar button {
+        position: absolute;
+        margin-left: -90px;
+        margin-top: -55px;
+    }
+
+    .navBar li {
+        margin-bottom: 8px;
+        width: 220px;
+        margin-bottom: 8px;
+        margin-left: 10px;
+        /* text-align: right; */
+    }
+
+    #item_navbar {
+        font-size: 16px;
+    }
+
+    #icon_arrow {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    #btn_sair {
+        margin-top: -70px;
+    }
+}
+
+body {
+    position: relative;
+}
+  
+body::after {
+    content: '';
+    display: block;
+    height: 60px; /* Set same as footer's height */
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(101, 86, 222);
+    position: absolute;
+    bottom: 0;
+}
+
+#footer_txt {
+    color: white;
+    text-align: center;
+    position: relative;
+}

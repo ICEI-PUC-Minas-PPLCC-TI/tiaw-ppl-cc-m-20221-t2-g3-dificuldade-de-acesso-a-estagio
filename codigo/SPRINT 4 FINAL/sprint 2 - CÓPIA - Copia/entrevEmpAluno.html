@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="stylesS2Cecilia.css">
+
+        <script src="https://kit.fontawesome.com/a2f3e645e9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header id="header_entrev_aluno">
+
+            <img src="./imgs/image-removebg-preview3.png" alt="LOGO">
+
+            <nav>
+                <ul class="navBar" id="nav_inscricoes">
+                    <li><a href="pagAlunoInicio.html">Home</a></li>
+                    <li><a href="perfilAluno.html">Perfil</a></li>
+                    <li><a href="entrevEmpAluno.html">Entrevistas de emprego</a></li>
+                    <li><a href="curriculo.html">Como fazer um currículo</a></li>
+                    <button id="btn_sair" onclick="sair()"><i class="fa-solid fa-arrow-right-from-bracket fa-xl"></i></button>
+                </ul>
+            </nav>
+        </header>
+        <h6 id="userName">Olá, <span id="nomeUsuario"></span>! Seja bem-vindo</h6>
+
+        <p id="icon_arrow"><a href="entEmpDois.html"><i class="fa-solid fa-calendar-plus fa-2xl" id="btn_arrowEnt"></i></a></p>
+
+        <div class="intro">
+            <h1>Vagas inscritas</h1>
+            <p>Essas são todas as vagas em que você está inscrito atualmente para participar da entrevista de emprego</p>
+        </div>
+
+        <div class="containerEmp">
+
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+            <section>
+                <div class="text-center p-3 pl-0 navbar-dark" style="background-color: rgb(101, 86, 222);">
+                    <div class="row">
+                        <div class="col-12">
+                            <p id="footer_txt">©INprego - Todos os direitos reservados - 2022</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+        <script src="entrevEmpAluno.js"></script>
+    </body>
+</html>

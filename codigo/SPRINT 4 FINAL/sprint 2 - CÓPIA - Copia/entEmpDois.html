@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="stylesS2Cecilia.css">
+        <!-- <link rel="stylesheet" href="stylesHeader.css"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+        <script src="https://kit.fontawesome.com/a2f3e645e9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header id="header_entrev_dois">
+
+            <div id="logo_user"> 
+                <img id="img_entEmp" src="./imgs/image-removebg-preview3.png" alt="LOGO">
+            </div>
+            
+            <nav id="navEntEmpDois">
+                <ul class="navBar" id="navbar_entrevDois">
+                    <li id="item_navbarDois"><a href="pagAlunoInicio.html">Home</a></li>
+                    <li id="item_navbarDois"><a href="perfilAluno.html">Perfil</a></li>
+                    <li id="item_navbarDois"><a href="entrevEmpAluno.html">Entrevistas de emprego</a></li>
+                    <li id="item_navbarDois"><a href="curriculo.html">Como fazer um currículo</a></li>
+                    <button id="btn_sair_dois" onclick="sair()"><i class="fa-solid fa-arrow-right-from-bracket fa-xl"></i></button>
+                </ul>
+            </nav>
+        </header>
+        <h6>Olá, <span id="nomeUsuario"></span>! Seja bem-vindo</h6>
+        
+        <h1 id="title_insc_entrev">Inscreva-se aqui para participar das entrevistas de emprego</h1>
+
+        <!-- Button trigger modal -->
+        <button id="btn_apliAbreModal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Faça a sua aplicação aqui!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Faça aqui a sua aplicação para os estágios disponíveis!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="vagasDisp">
+                            <p>Selecione a empresa onde você quer fazer uma entrevista de emprego</p>
+                            <select class="empDisponiveis" id="inputEmpEscolhida">
+                                <option value="">Selecione a empresa</option>
+
+                            </select>
+                            <button id="btn_modalEntrev" onclick="buscarVagas()">Pesquisar vagas com horários</button>
+                            <p>Selecione a vaga da empresa à qual você quer se aplicar</p>
+                            <select class="vagasDisponiveis" id="inputVagaEscolhida">
+                                <option value="">Selecione a vaga para a qual você quer aplicar</option>
+
+                            </select>
+                            <button id="btn_modalEntrev" onclick="buscarHorarios()">Pesquisar horários dessa vaga</button>
+
+                            <div class="horariosDivulgados">
+                                <select class="horariosDisponiveis" id="inputHorarioEscolhida">
+                                    <option value="">Selecione o horário da entrevista</option>
+    
+                                </select>
+                            </div>
+                        </div>
+                        <div class="inputs_apli">
+                            <input type="text" id="inputApliNome" placeholder="Digite seu nome completo aqui...">
+                            <input type="text" id="inputApliTel" placeholder="Digite seu celular aqui...">
+                            <input type="text" id="inputApliEmail" placeholder="Digite seu e-mail aqui...">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn_apli" onclick="feitaAplicacao()">Aplicar!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="horariosDisp">
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <section>
+                <div class="text-center p-3 pl-0 navbar-dark" style="background-color: rgb(101, 86, 222);">
+                    <div class="row">
+                        <div class="col-12">
+                            <p style="color: white;">©INprego - Todos os direitos reservados - 2022</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </footer>
+        
+
+        <script src="entrevEmpAluno2.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    </body>
+</html>
+
